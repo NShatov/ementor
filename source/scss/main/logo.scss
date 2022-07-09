@@ -1,0 +1,8 @@
+.logo {
+  width: 172px;
+  height: 22px;
+
+  &--white > &__img {
+    fill: $l-white;
+  }
+}

@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__description-column,
+  &__img-column, {
+    flex-basis: 50%;
+  }
+
+  &--reverse {
+    flex-direction: row-reverse;
+  }
+}

@@ -1,0 +1,65 @@
+//////////////////
+// Colors
+//////////////////
+$white: #ffffff;
+$black: #000000;
+$green: #10B582;
+$orange: #FA9F42;
+$l-white: #FDFDFD;
+$dark: #353A5A;
+
+
+$bg: #fdfdfd;
+$container: #ff0000;
+
+//////////////////
+// ANIMATIONS
+//////////////////
+$tr-time: .5s;
+$tr-type: ease-in-out;
+
+//////////////////
+// Border
+//////////////////
+$brd-rad: 10px;
+$cropping-brd: 80px;
+$cropping-brd-big: 120px;
+
+//////////////////
+// Buttons
+//////////////////
+$button: (
+  //main-bg: $c-dark,
+  //main-bg-hover: rgba($c-dark, .8),
+  //main-color: white,
+  //disabled-bg: rgba($c-dark, .1),
+  //disabled-color: $c-dark,
+  //close-color: $c-dark,
+  //close-color-hover: $c-red
+);
+
+//////////////////
+// FONTS
+//////////////////
+$fz-little: 12px;
+
+$fz-min: 13px;
+$fz-xmin: 14px;
+
+$fz-main: 16px;
+$fz-xmain: 18px;
+
+$fz-med: 20px;
+$fz-xmed: 25px;
+$fz-xxmed: 26px;
+
+$fz-large: 30px;
+$fz-xlarge: 33px;
+$fz-xxlarge: 35px;
+
+$fz-big: 40px;
+$fz-xbig: 45px;
+$fz-xxbig: 50px;
+
+$fz-xl: 58px;
+$fz-xxl: 70px;

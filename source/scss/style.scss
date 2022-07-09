@@ -1,0 +1,29 @@
+@import "variables";
+@import "global";
+
+// main
+@import "main/header";
+@import "main/footer";
+@import "main/main-navigation";
+@import "main/site-navigation";
+@import "main/logo";
+@import "main/titles";
+
+
+//blocks
+@import "blocks/social";
+@import "blocks/button";
+@import "blocks/offer";
+@import "blocks/card";
+@import "blocks/service-navigation";
+
+
+//sections
+@import "sections/statistics";
+@import "sections/promo";
+@import "sections/product";
+@import "sections/courses";
+@import "sections/teachers";
+@import "sections/skills";
+@import "sections/skill";
+@import "sections/faq";

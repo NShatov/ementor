@@ -1,0 +1,13 @@
+.main-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  &--vertical {
+    flex-direction: column-reverse;
+    height: 200px;
+    align-items: center;
+  }
+}

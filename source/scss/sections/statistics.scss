@@ -1,0 +1,26 @@
+.statistics {
+  &__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  &__indicator {
+    font-weight: 500;
+    font-size: $fz-xl;
+    line-height: 1;
+    color: $green;
+    margin-bottom: 15px;
+  }
+  &__description {
+    font-size: $fz-xmin;
+    line-height: 1.2;
+    color: $dark;
+  }
+}

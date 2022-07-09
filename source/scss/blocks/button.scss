@@ -1,0 +1,20 @@
+.button {
+  width: 230px;
+  height: 56px;
+  background-color: $green;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+  text-align: center;
+  color: $l-white;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &--accent {
+    background-color: $orange;
+  }
+}

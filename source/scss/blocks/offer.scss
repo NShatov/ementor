@@ -1,0 +1,37 @@
+.offer {
+  color: $dark;
+
+  &--align-center {
+    max-width: 542px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 120%;
+
+    &--white {
+      color: $l-white;
+    }
+  }
+
+  &__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    max-width: 380px;
+
+    &--white {
+      color: $l-white;
+    }
+  }
+
+
+}

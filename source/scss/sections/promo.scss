@@ -1,0 +1,18 @@
+.promo {
+  background-color: $green;
+
+  &__content {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__social {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+
